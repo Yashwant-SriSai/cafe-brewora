@@ -81,14 +81,14 @@ nav li a:hover{
      width: 100px;
      position:relative;
      left: 35%;
-     transform: translateX(-20%);
+     transform: translateX(-50%);
      z-index: 1;
      transition: 0.7s;
      --left:-12px;
 }
 
 .banner .product .cup{
-    background: url("assets\images\mockup.png")  ,
+    background: url("../images/mockup.png")  ,
                  var(--url) var(--left),0;
     background-size:auto 120%;
     background-repeat: no-repeat,repeat;
@@ -96,7 +96,7 @@ nav li a:hover{
     width: 75px;
     aspect-ratio: 2/5;
    background-blend-mode:multiply;  
-    mask-image: url("assets\images\mockup.png");
+    mask-image: url("../images/mockup.png");
     mask-size: auto 100%;
     transition: 0.7s;
     position:relative;
@@ -106,7 +106,7 @@ nav li a:hover{
 }
 .banner .product:hover{
   --left:-484px;
-  transform: translateX(-20%) translateY(-20%) ;
+  transform:  translateX(-50%) translateY(-20%) ;
   opacity: 1;
 }
 
