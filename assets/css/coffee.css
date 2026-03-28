@@ -88,7 +88,7 @@ nav li a:hover{
 }
 
 .banner .product .cup{
-    background: url("mockup.png")  ,
+    background: url("assets\images\mockup.png")  ,
                  var(--url) var(--left),0;
     background-size:auto 120%;
     background-repeat: no-repeat,repeat;
@@ -96,7 +96,7 @@ nav li a:hover{
     width: 75px;
     aspect-ratio: 2/5;
    background-blend-mode:multiply;  
-    mask-image: url("mockup.png");
+    mask-image: url("assets\images\mockup.png");
     mask-size: auto 100%;
     transition: 0.7s;
     position:relative;
